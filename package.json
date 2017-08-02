@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/realm-demos/realm-js-playground#readme",
   "dependencies": {
+    "faker": "^4.1.0",
     "realm": "^1.10.1"
   }
 }
