@@ -18,7 +18,7 @@ Realm.Sync.User.login(REALM_AUTH, ADMIN_USERNAME, ADMIN_PASSWORD, (err, user) =>
         }, (err, realm) => {
             if (err) { console.error(err.toString()) }
             else {
-
+                ready(realm)
             }
         })
     }
