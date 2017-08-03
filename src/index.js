@@ -10,7 +10,7 @@ function ready(realm){
     const results = realm.objects('Products').filtered('replaceme!')
 }
 
-Realm.Sync.User.login(REALM_AUTH, ADMIN_USERNAME, ADMIN_PASSWORD, (err, user) => {
+Realm.Sync.User.login(REALM_AUTH_URL, ADMIN_USERNAME, ADMIN_PASSWORD, (err, user) => {
     if(err) { console.error(err.toString()) }
     else {
         Realm.openAsync({
