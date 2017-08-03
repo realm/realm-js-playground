@@ -7,6 +7,5 @@ Or just debug `src/index.js`
 
 ## Fake Local Data
 
-This inserts 100 fake products into a local realm
-
+This inserts 400000 fake products into a remote realm
 run `node src/faker.js`
